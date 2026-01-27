@@ -3,11 +3,11 @@ export default [
         files: ["**/*.js"],
         languageOptions: {
             ecmaVersion: 'latest',
-            sourceType: "module",
+            sourceType: 'module',
         },
         rules: {
-            semi: ["error", "always"],
-            quotes: ["error", "single"],
+            semi: ['error', 'always'],
+            quotes: ['error', 'single'],
         },
     },
 ];
