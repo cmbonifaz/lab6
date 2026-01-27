@@ -8,6 +8,9 @@ export default [
         rules: {
             semi: ['error', 'always'],
             quotes: ['error', 'single'],
+            'no-unused-vars': 'warn',
+            'comma-dangle': ['error', 'always-multiline'],
+            
         },
     },
 ];
