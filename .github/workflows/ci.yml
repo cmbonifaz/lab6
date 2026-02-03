@@ -26,6 +26,5 @@ jobs:
       - name: Ejecutar pruebas
         run: npm test
 
-      - name: Smular despliegue
-        run: |
-          echo " Despliegue simulado: la aplicación pasó lint y pruebas correctamente."
+      - name: Build
+        run: npm ci && npm run build
